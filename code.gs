@@ -442,7 +442,7 @@ function apiLoginStep1(username, password) {
     if(!sheet) return { status: 'error', message: 'ไม่พบฐานข้อมูล Users' };
     
     const data = sheet.getDataRange().getValues();
-    let logoUrl = "https://drive.google.com/thumbnail?id=142CkRafzFxGXtCS5q5D0Iqct7rKr4HSA&sz=w200";
+    let logoUrl = "https://drive.google.com/thumbnail?id=1ztvazUTKvglF0vRo4leaDe38olLfXQWs&sz=w200";
     
     try {
       const sysSS = SpreadsheetApp.openById(DB_FILES.SYSTEM);
